@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "tmo",
+  "version": "1.0.0",
+  
+  "name": "TooMuchOcean",
+  "description": "Allows users to configure the ocean removal chance",
+  "authors": [
+    "Valoeghese"
+  ],
+  
+  "icon": "assets/tmo/icon.png",
+  
+  "license": "LGPL-3.0",
+  
+  "environment": "*",
+  
+  "entrypoints": {
+    "main": [
+      "tk.valoeghese.toomuchocean.TooMuchOcean"
+    ]
+  },
+  
+  "mixins": [
+    "toomuchocean.mixins.json"
+  ],
+  
+  "requires": {
+    "fabricloader": ">=0.4.0"
+  }
+}
