@@ -29,7 +29,7 @@ public class TooMuchOcean implements ModInitializer {
 			if (configFile.createNewFile()) {
 				log.info("Creating config file.");
 				try (FileWriter writer = new FileWriter(configFile)) {
-					writer.write("{\n  \"replacementChance\": 0.3\n}");
+					writer.write("{\n  \"replacementChance\": 0.3,\n  \"continentChance\": 0.1,\n  \"alwaysContinentAtOrigin\": true\n}");
 				} catch (IOException e) {
 					e.printStackTrace();
 				}

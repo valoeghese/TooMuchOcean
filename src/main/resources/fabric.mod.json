@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "tmo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   
   "name": "TooMuchOcean",
-  "description": "Allows users to configure the ocean removal chance",
+  "description": "Allows users to configure ocean removal chance and continent chance",
   "authors": [
     "Valoeghese"
   ],

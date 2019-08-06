@@ -3,7 +3,8 @@
   "package": "tk.valoeghese.toomuchocean.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinAddIslandLayer"
+    "MixinAddIslandLayer",
+    "MixinContinentLayer"
   ],
   "injectors": {
     "defaultRequire": 1
